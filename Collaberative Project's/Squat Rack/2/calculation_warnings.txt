@@ -1,0 +1,7 @@
+2022-May-04 13:34:09
+Computer name:	V10RM126W10-13
+Number of cores used in calculation:	2
+Configuration name:	Default
+Project name:	Project(2)
+
+Warnings on last iteration: 

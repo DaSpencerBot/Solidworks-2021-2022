@@ -1,0 +1,78 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2021 SP4.0. Build: 5310
+                Computer name:   V10RM126W10-13
+                User name:   pitts
+                Processors:   Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+                Memory:   10239 MB / 4398 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19042)
+                CAD version:   SOLIDWORKS 2021 SP4.1
+                CPU speed:   2397 MHz
+
+    General Info
+                Model:   Lean Cup.SLDPRT
+                Project name:   Project(1)
+                Project path:   C:\Users\pitts\Documents\GitHub\Solidworks-2021-2022\Collaberative Project's\Squat Rack\5
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (not exclude internal spaces)
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global Coordinate System
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.811 m
+                X max:   0.822 m
+                Y min:   -0.737 m
+                Y max:   0.887 m
+                Z min:   -0.728 m
+                Z max:   0.817 m
+                X size:   1.633 m
+                Y size:   1.623 m
+                Z size:   1.545 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   32
+                Number of cells in Y:   32
+                Number of cells in Z:   32
+
+        Number Of Cells
+                Cells:   33195
+                Fluid cells:   33195
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   1
+
+    Goals
+                
+                Name   	Unit   	Value   	Progress   	Criteria   	Delta   	Use in convergence 
+
+    General Info
+                Run at:   V10RM126W10-13
+                Number of cores:   2
+                Iterations:   111
+                CPU time:   118 s
+
+        Log
+                Mesh generation started	0:   12:18:11 , May 06
+                Mesh generation normally finished	0:   12:18:13 , May 06
+                Preparing data for calculation	0:   12:18:14 , May 06
+                Calculation started	0:   12:18:22 , May 06
+                Calculation has converged since the following criteria are satisfied:	111:   12:20:13 , May 06
+                    Goals are converged	111:   
+                Calculation finished	111:   12:20:15 , May 06

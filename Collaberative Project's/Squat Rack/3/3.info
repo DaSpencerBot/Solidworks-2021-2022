@@ -1,0 +1,122 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2021 SP4.0. Build: 5310
+                Computer name:   V10RM126W10-13
+                User name:   pitts
+                Processors:   Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+                Memory:   10239 MB / 5207 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19042)
+                CAD version:   SOLIDWORKS 2021 SP4.1
+                CPU speed:   2397 MHz
+
+    General Info
+                Model:   Flow 2.SLDPRT
+                Project name:   Project(1)
+                Project path:   C:\Users\pitts\Documents\GitHub\Solidworks-2021-2022\Collaberative Project's\Squat Rack\3
+                Units system:   SI (m-kg-s)
+                Analysis type:   Internal
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global Coordinate System
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                Cavitation:   Off
+                High Mach number flow:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   -9.81 m/s^2
+                Z component:   0 m/s^2
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.093 m
+                X max:   0.008 m
+                Y min:   -0.008 m
+                Y max:   0.063 m
+                Z min:   0.001 m
+                Z max:   0.207 m
+                X size:   0.101 m
+                Y size:   0.071 m
+                Z size:   0.206 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   10
+                Number of cells in Y:   6
+                Number of cells in Z:   20
+
+        Number Of Cells
+                Cells:   7226
+                Fluid cells:   7226
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   2
+
+    Goals
+
+        Surface Goals
+
+            SG Inlet Velocity 1 Volume Flow Rate
+                Type:   Surface Goal
+                Goal type:   Volume Flow Rate
+                Faces:   Face<1>
+                Coordinate system:   Global Coordinate System
+                Use in convergence :   On
+
+            SG Inlet Velocity 1 Static Pressure Av
+                Type:   Surface Goal
+                Goal type:   Static Pressure
+                Calculate:   Average value
+                Faces:   Face<1>
+                Coordinate system:   Global Coordinate System
+                Use in convergence :   On
+
+            SG Environment Pressure 2 Volume Flow Rate
+                Type:   Surface Goal
+                Goal type:   Volume Flow Rate
+                Faces:   Face<1>, Face<2>
+                Coordinate system:   Global Coordinate System
+                Use in convergence :   On
+
+            SG Environment Pressure 2 Velocity Av
+                Type:   Surface Goal
+                Goal type:   Velocity
+                Calculate:   Average value
+                Faces:   Face<1>, Face<2>
+                Coordinate system:   Global Coordinate System
+                Use in convergence :   On
+
+    Goals
+                
+                Name                                         	Unit    	Value         	Progress   	Criteria         	Delta            	Use in convergence 
+                SG Inlet Velocity 1 Volume Flow Rate         	m^3/s   	0             	100        	1e-08            	0                	On                 
+                SG Inlet Velocity 1 Static Pressure Av       	Pa      	100780.00     	100        	0.00100780001    	7.42147677e-10   	On                 
+                SG Environment Pressure 2 Volume Flow Rate   	m^3/s   	-1.5470e-19   	100        	1e-08            	6.2741407e-19    	On                 
+                SG Environment Pressure 2 Velocity Av        	m/s     	1.696e-09     	100        	2.03427705e-10   	1.91387068e-10   	On                 
+
+    General Info
+                Run at:   V10RM126W10-13
+                Number of cores:   2
+                Iterations:   54
+                CPU time:   26 s
+
+        Log
+                Mesh generation started	0:   13:55:12 , May 04
+                Mesh generation normally finished	0:   13:55:14 , May 04
+                Preparing data for calculation	0:   13:55:14 , May 04
+                Calculation started	0:   13:55:18 , May 04
+                Calculation has converged since the following criteria are satisfied:	54:   13:55:41 , May 04
+                    Goals are converged	54:   
+                Calculation finished	54:   13:55:42 , May 04
+                Warnings:   A vortex crosses the pressure opening	Boundary Condition : Environment Pressure 2 ; Inlet flow/outlet flow=1.00096, 		Boundary Condition : Environment Pressure 2 ; Inlet flow/outlet flow=0.999016, 		, 

@@ -1,0 +1,10 @@
+2022-May-04 13:55:41
+Computer name:	V10RM126W10-13
+Number of cores used in calculation:	2
+Configuration name:	Default
+Project name:	Project(1)
+
+Warnings on last iteration: 
+1. A vortex crosses the pressure opening :
+	Boundary Condition : Environment Pressure 2 ; Inlet flow/outlet flow=1.00096
+	Boundary Condition : Environment Pressure 2 ; Inlet flow/outlet flow=0.999016
